@@ -1,0 +1,92 @@
+digikanban=Digikanban
+Module19055200Desc=Digikanban
+enattentkanban=On hold
+urgentskanban=EMERGENCIES
+Addtask=Add a task
+writecomment=Write a comment…
+
+list_columns=List of digikanban columns
+Colomndigikanban=digikanban column
+
+EnAttent=On hold
+ALivrer=To deliver
+EnCours=In progress
+Chronique=Chronic
+Cloturer=Closed
+
+tagsdigikanban=digikanban Tags
+
+COMMENT_TASK_CREATE=Comment created
+COMMENT_TASK_MODIFY=Comment edited
+COMMENT_TASK_DELETE=Comment deleted
+COMMENT_TASK_ECHECK_CREATE=Failed comment
+COMMENT_TASK_ECHECK_DELETE=Deletion failed
+COMMENT_TASK_ECHECK_UPDATE=Edit failed
+
+nbrelements=Number of elements:
+alert_depasse_dure=You have exceeded the planned workload
+cloner_task=Clone task
+color_datejalon=Milestone Date Status
+changestatusdate=Change milestone date status
+ganttproadvanceddatejalon=Date Milestone
+grey=Gray
+green=Green
+red=Red
+config_vue_kanban=Configuring the digikanban Tasks Plus module
+contact_tache=Task Contacts
+type_contact_tache=Primary contact (task) type
+ViewTask=View task
+viewgantt=Gantt view
+viewkanban=Kanban view
+TaskUrgent=Urgent task
+DELEY_ALERTE_DATEJALON=Milestone Date Alert Delay
+DaylyHours=Working hours per day
+
+SelectedHoursLessThanPlannedWorkload=Selected work hours are less than planned workload
+
+JalonDate=Milestone date
+showallprojets=Select all projects by default
+
+ShowAll=Display all
+HideAll=Hide all
+SelectAll=Select all
+addtags=Create a new label
+SearchByContactType=Search by contact type
+NewTag=New label
+Comments=Comments
+checklisttask=CheckList
+Update_checklisttask=Edit Task Checklist
+Update_checklistmodal=Edit Model CheckList
+EtiquettesModal=Edit template labels
+createtag=Create a new label
+createcheck=Add an item
+totalcoutstemp=Cost of time consumed
+Le=THE
+
+NumTask=Task number
+NumProjet=Project number
+Modele=Model
+CreateModel=Create a template
+UseTemplate=Use this template
+EditEtiquettes=Edit labels
+EditChecklist=Edit checklist
+titlemodal=Model title
+
+ModelsManagement=Model management
+digikanbanmsgconfiraction=Are you sure you want to continue ?
+
+newcolomn=Add a column
+printcolomntitle=Enter the title of the list…
+hidetaskisprogress100=Hide by default tasks that have already been completed (Progress %s)
+progressless100=Hide completed tasks
+ModifyColomn=Edit column title
+columns=Column management
+infoprogress100=Tasks with progress of %s
+msg_confirm=Are you sure you want to continue deleting?
+
+FieldsToShowWhenModifyingATask=Fields to show when <b>modifying</b> a task
+FieldsToShowWhenHoveringATask=Fields to show when <b>hovering</b> a task
+
+showtaskinfirstcolomn=Show tasks that have no status in the first column
+OtherContact=Other contributors
+MaximumNumberOfContactsToDisplayNextToThePrimaryUser=Maximum number of contacts to display next to the primary user

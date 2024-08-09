@@ -1,0 +1,115 @@
+digikanban=Digikanban
+Module19055200Desc=Digikanban
+enattentkanban=En Attente
+urgentskanban=Urgences
+Addtask=Ajouter une tâche
+writecomment=Écrivez un commentaire…
+
+list_columns=Liste des colonnes digikanban
+Colomndigikanban=Colonne digikanban
+
+EnAttent=En Attente
+ALivrer=A Livrer
+EnCours=En Cours
+Chronique=Chronique
+Cloturer=Clôturés
+
+tagsdigikanban=Tags Digikanban
+
+COMMENT_TASK_CREATE=Commentaire créée
+COMMENT_TASK_MODIFY=Commentaire modifiée
+COMMENT_TASK_DELETE=Commentaire supprimée
+COMMENT_TASK_ECHECK_CREATE=Commentaire échoué
+COMMENT_TASK_ECHECK_DELETE=Suppréssion échoué
+COMMENT_TASK_ECHECK_UPDATE=Modification échoué
+
+nbrelements=Nombre d'éléments :
+alert_depasse_dure=Vous avez dépassé la charge de travail prévue
+cloner_task=Cloner tâche
+color_datejalon=Statut date jalon
+changestatusdate=Changer statut de date jalon
+ganttproadvanceddatejalon=Date Jalon
+grey=Gris
+green=Vert
+red=Rouge
+config_vue_kanban=Configuration du module digikanban Tâches Plus
+contact_tache=Contacts de la tâche
+type_contact_tache=Type de contact (tâche) principal
+ViewTask=Voir la tâche
+viewgantt=Vue Gantt
+viewkanban=Vue Kanban
+TaskUrgent=Tâche urgente
+DELEY_ALERTE_DATEJALON=Délai d'alerte de date Jalon
+DaylyHours=Heures de travail par jour
+
+SelectedHoursLessThanPlannedWorkload=Les heures de travail sélectionné sont inférieures à la charge de travail prévu
+
+JalonDate=Date jalon
+showallprojets=Sélectionner par défaut tous les projet
+
+ShowAll=Afficher tout
+HideAll=Cacher tout
+SelectAll=Tout sélectionner
+addtags=Créer une nouvelle étiquette
+SearchByContactType=Recherche par type de contact
+NewTag=Nouvelle étiquette
+Comments=Commentaires
+checklisttask=CheckList
+Update_checklisttask=Modifier CheckList de tâche
+Update_checklistmodal=Modifier CheckList du modèle
+EtiquettesModal=Modifier les étiquettes du modèle
+createtag=Créer une nouvelle étiquette
+createcheck=Ajouter un élément
+totalcoutstemp=Coût temps consommé
+Le=Le
+
+NumTask=Numéro de tâche
+NumProjet=Numéro de projet
+Modele=Modèle
+CreateModel=Créer un modèle
+UseTemplate=Utiliser ce modèle
+EditEtiquettes=Modifier les étiquettes
+EditChecklist=Modifier check-list
+titlemodal=Titre du modèle
+
+ModelsManagement=Gestion des modèles
+digikanbanmsgconfiraction=Êtes-vous sûr de vouloir continuer ?
+
+newcolomn=Ajouter un colonne
+printcolomntitle=Saisissez le titre de la liste…
+hidetaskisprogress100=Cacher par défaut les tâches qui ont déjà été réalisé (Progress %s)
+progressless100=Cacher tâches achevées
+ModifyColomn=Modifier le titre de colonne
+columns=Gestion des colonnes
+infoprogress100=Tâches avec un avancement de %s
+msg_confirm=Êtes-vous sûr de vouloir continuer la suppression ?
+
+FieldsToShowWhenModifyingATask=Champs à afficher lors de la <b>modification</b> du tâche
+FieldsToShowWhenHoveringATask=Champs à afficher lors du <b>survol</b> du tâche
+
+showtaskinfirstcolomn=Afficher les tâches qui n'ont pas de statut dans la première colonne
+OtherContact=Autres contributeurs
+MaximumNumberOfContactsToDisplayNextToThePrimaryUser=Nombre maximum de contacts à afficher à côté de l'utilisateur principal
+
+#
+# Config page - Page d'administration
+#
+
+# Data - Donnée
+ColumnsManagement = Gestion des colonnes
+ColumnList        = Liste des colonnes
+
+# Dictionaries - Dictionnaires
+TasksColumns          = Colonnes des tâches
+Backlog               = À Planifier
+ToDo                  = À Faire
+InProgress            = En Cours
+InReview              = À Controler
+Done                  = Fait
+BacklogDescription    = Toutes les tâches et idées qui doivent être faites, mais qui ne sont pas encore planifiées pour être travaillées.
+ToDoDescription       = Les tâches qui sont prêtes à être commencées. Ces tâches sont souvent tirées du backlog et priorisées pour être les prochaines à être traitées.
+InProgressDescription = Les tâches qui sont actuellement en train d'être travaillées. Cela permet de visualiser ce qui est en cours de réalisation.
+InReviewDescription   = Les tâches qui ont été complétées mais qui nécessitent une vérification ou une approbation avant d'être considérées comme terminées.
+DoneDescription       = Les tâches qui ont été complètement terminées et validées. Cela permet de suivre les progrès et de voir ce qui a été accompli.
+Lowerpercent          = Pourcentage bas 
+Upperpercent          = Pourcentage haut

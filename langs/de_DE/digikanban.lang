@@ -1,0 +1,92 @@
+digikanban=Digikanban
+Module19055200Desc=Digikanban
+enattentkanban=In der Warteschleife
+urgentskanban=NOTFÄLLE
+Addtask=Fügen Sie eine Aufgabe hinzu
+writecomment=Schreibe einen Kommentar…
+
+list_columns=Liste der digikanban-Spalten
+Colomndigikanban=digikanban-Kolumne
+
+EnAttent=In der Warteschleife
+ALivrer=Zustellen
+EnCours=Im Gange
+Chronique=Chronisch
+Cloturer=Geschlossen
+
+tagsdigikanban=digikanban-Tags
+
+COMMENT_TASK_CREATE=Kommentar erstellt
+COMMENT_TASK_MODIFY=Kommentar bearbeitet
+COMMENT_TASK_DELETE=Kommentar gelöscht
+COMMENT_TASK_ECHECK_CREATE=Fehlgeschlagener Kommentar
+COMMENT_TASK_ECHECK_DELETE=Das Löschen ist fehlgeschlagen
+COMMENT_TASK_ECHECK_UPDATE=Die Bearbeitung ist fehlgeschlagen
+
+nbrelements=Anzahl Elemente:
+alert_depasse_dure=Sie haben den geplanten Arbeitsaufwand überschritten
+cloner_task=Klonaufgabe
+color_datejalon=Status des Meilensteindatums
+changestatusdate=Status des Meilensteindatums ändern
+ganttproadvanceddatejalon=Datum Meilenstein
+grey=Grau
+green=Grün
+red=Rot
+config_vue_kanban=Konfigurieren des digikanban Tasks Plus-Moduls
+contact_tache=Aufgabenkontakte
+type_contact_tache=Typ des primären Kontakts (Aufgabe).
+ViewTask=Aufgabe ansehen
+viewgantt=Gantt-Ansicht
+viewkanban=Kanban-Ansicht
+TaskUrgent=Dringende Aufgabe
+DELEY_ALERTE_DATEJALON=Verzögerung der Meilensteindatumsbenachrichtigung
+DaylyHours=Arbeitszeiten pro Tag
+
+SelectedHoursLessThanPlannedWorkload=Die ausgewählten Arbeitsstunden sind geringer als die geplante Arbeitsbelastung
+
+JalonDate=Meilensteindatum
+showallprojets=Wählen Sie standardmäßig alle Projekte aus
+
+ShowAll=Alles anzeigen
+HideAll=Versteck alles
+SelectAll=Wählen Sie Alle
+addtags=Erstellen Sie ein neues Etikett
+SearchByContactType=Suche nach Kontakttyp
+NewTag=Neues Label
+Comments=Kommentare
+checklisttask=Checkliste
+Update_checklisttask=Aufgabencheckliste bearbeiten
+Update_checklistmodal=Modell-Checkliste bearbeiten
+EtiquettesModal=Bearbeiten Sie Vorlagenbeschriftungen
+createtag=Erstellen Sie ein neues Etikett
+createcheck=Fügen Sie einen Artikel hinzu
+totalcoutstemp=Kosten der verbrauchten Zeit
+Le=DER
+
+NumTask=Aufgabennummer
+NumProjet=Projektnummer
+Modele=Modell
+CreateModel=Erstellen Sie eine Vorlage
+UseTemplate=Verwenden Sie diese Vorlage
+EditEtiquettes=Beschriftungen bearbeiten
+EditChecklist=Checkliste bearbeiten
+titlemodal=Modelltitel
+
+ModelsManagement=Modellmanagement
+digikanbanmsgconfiraction=Bist du dir sicher, dass du weitermachen willst ?
+
+newcolomn=Fügen Sie eine Spalte hinzu
+printcolomntitle=Geben Sie den Titel der Liste ein…
+hidetaskisprogress100=Standardmäßig bereits erledigte Aufgaben ausblenden (Fortschritt %s)
+progressless100=Erledigte Aufgaben ausblenden
+ModifyColomn=Spaltentitel bearbeiten
+columns=Spaltenverwaltung
+infoprogress100=Aufgaben mit einem Fortschritt von %s
+msg_confirm=Sind Sie sicher, dass Sie mit dem Löschen fortfahren möchten?
+
+FieldsToShowWhenModifyingATask=Felder, die beim Ändern einer Aufgabe angezeigt werden
+FieldsToShowWhenHoveringATask=Felder, die beim Bewegen der Maus über eine Aufgabe angezeigt werden
+
+showtaskinfirstcolomn=Zeigen Sie Aufgaben, die keinen Status haben, in der ersten Spalte an
+OtherContact=Andere Mitwirkende
+MaximumNumberOfContactsToDisplayNextToThePrimaryUser=Maximale Anzahl von Kontakten, die neben dem Hauptbenutzer angezeigt werden sollen
