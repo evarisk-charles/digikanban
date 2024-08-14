@@ -14,6 +14,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/usergroups.lib.php';
 dol_include_once('/digikanban/class/digikanban.class.php');
 dol_include_once('/digikanban/class/digikanban_columns.class.php');
 dol_include_once('/digikanban/lib/digikanban.lib.php');
+dol_include_once('/digikanban/lib/digikanban_functions.lib.php');
 
 if (empty($conf->digikanban->enabled) || !$user->rights->digikanban->lire) accessforbidden();
 
@@ -231,7 +232,7 @@ $arrayofjs = array('digikanban/js/script.js');
 llxHeader('', $title, $help_url = '', $target = '', $disablejs = 0, $disablehead = 0, $arrayofjs);
 
 $linkback ="";
-digikanbanPrepareAdminHead('columns', $linkback, 'title_setup');
+digikanban_admin_prepare_head('columns', $linkback, 'title_setup');
 
 
 $sql = "SELECT";

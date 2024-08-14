@@ -259,7 +259,7 @@ class modDigiKanban extends DolibarrModules
             'titre'    => 'digikanban',
             'prefix'   => '<span class="paddingrightonly fa fa-th-list"></span>',
             'leftmenu' => 'digikanban',
-            'url'      => '/digikanban/index.php',
+            'url'      => '/digikanban/view/kanban_view.php',
             'langs'    => 'digikanban@digikanban',
             'position' => 1000 + $r,
             'enabled'  => 1,

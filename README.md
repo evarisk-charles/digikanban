@@ -19,7 +19,7 @@
 
 - Support & Assistance : [Forum dolibarr.fr](https://dolibarr.fr) / Par mail à technique@evarisk.com
 - Demo : [Demo DigiKanban](https://demodoli.digirisk.com) - ID: demo - Password: demo
-- Documentation : [Wiki DigiKanban](https://wiki.dolibarr.org/index.php/Module_DigiKanban)
+- Documentation : [Wiki DigiKanban](https://wiki.dolibarr.org/view/kanban_view.php/Module_DigiKanban)
 - Projet GitHub : [Projet DigiKanban](https://github.com/Evarisk/digikanban/projects?query=is%3Aopen)
 - Saturne Framework : [Télécharger Saturne](https://dolistore.com/fr/modules/1906-Saturne.html)
 - D'autres modules développés par Evarisk disponibles sur [DoliStore.com](https://dolistore.com)

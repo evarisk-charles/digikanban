@@ -42,6 +42,7 @@ require_once DOL_DOCUMENT_ROOT.'/projet/class/task.class.php';
 // Libraries
 require_once __DIR__ . '/../class/digikanban.class.php';
 require_once __DIR__ . '/../lib/digikanban.lib.php';
+require_once __DIR__ . '/../lib/digikanban_functions.lib.php';
 
 // Global variables definitions
 global $conf, $db, $langs, $moduleName, $user;

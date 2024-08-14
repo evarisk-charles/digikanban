@@ -12,6 +12,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/date.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.form.class.php';
 
 dol_include_once('/digikanban/lib/digikanban.lib.php');
+dol_include_once('/digikanban/lib/digikanban_functions.lib.php');
 dol_include_once('/digikanban/class/digikanban.class.php');
 dol_include_once('/digikanban/class/digikanban_columns.class.php');
 
@@ -148,7 +149,7 @@ $modname = "";
 llxHeader(array(), $modname,'','','','',$morejs,0,0);
 
 $linkback ="";
-digikanbanPrepareAdminHead('columns', $linkback, 'title_setup');
+digikanban_admin_prepare_head('columns', $linkback, 'title_setup');
 
 $htmlright = "";
 

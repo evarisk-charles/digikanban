@@ -19,6 +19,8 @@ include_once DOL_DOCUMENT_ROOT . "/societe/class/societe.class.php";
 require_once DOL_DOCUMENT_ROOT.'/core/class/html.formother.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
 
+require_once __DIR__ . '/lib/digikanban_functions.lib.php';
+
 dol_include_once('/digikanban/class/digikanban_checklist.class.php');
 dol_include_once('/digikanban/class/digikanban.class.php');
 dol_include_once('/digikanban/class/digikanban_tags.class.php');
@@ -871,13 +873,13 @@ elseif($action == "getallTasks") {
 			$updatetask = false;
 			$option_taskurgent = !empty($task->array_options['options_digikanban_taskurgent']) ? $task->array_options['options_digikanban_taskurgent'] : '';
 			$keytag = !empty($task->array_options['options_digikanban_colomn']) ? $task->array_options['options_digikanban_colomn'] : '';
-			checkIfNeedToBeTransfered($task, $updatetask, $tobetransferedto, $option_taskurgent);
+			check_if_need_to_be_transfered($task, $updatetask, $tobetransferedto, $option_taskurgent);
 
 			$key = $keytag>0 ? $keytag : 1;
 
 
 			// if(!$obj->dateo || !$obj->datee){
-			// 	$html = getTaskelement($obj, $task, $kanban->status_date, 'enattent');
+			// 	$html = get_task_element($obj, $task, $kanban->status_date, 'enattent');
 			// 	$data['enattent'][]=$html;
 			// }
 
@@ -888,7 +890,7 @@ elseif($action == "getallTasks") {
 			// 		$updatetask = 1;
 			// 	}
 
-			// 	$html = getTaskelement($obj, $task, $kanban->status_date, 'urgents');
+			// 	$html = get_task_element($obj, $task, $kanban->status_date, 'urgents');
 			// 	$data['urgents'][] = $html;
 
 			// }
@@ -897,7 +899,7 @@ elseif($action == "getallTasks") {
 			// 		$dd = dol_getdate($db->jdate($obj->dateo));
 			// 		$dt = dol_mktime(0, 0, 0, $dd['mon'], 1, $dd['year']);
 
-			// 		$html = getTaskelement($obj, $task, $kanban->status_date);
+			// 		$html = get_task_element($obj, $task, $kanban->status_date);
 
 			// 		$data['month'.$dt][]=$html;
 			// 	}
@@ -909,7 +911,7 @@ elseif($action == "getallTasks") {
 			// }
 			
 			// if($task->array_options['options_digikanban_colomn']>0 || $object->showtaskinfirstcolomn>0){
-				$html = getTaskelement($obj, $task, $kanban->status_date, 'urgents');
+				$html = get_task_element($obj, $task, $kanban->status_date, 'urgents');
 				$data['colomn'.$key][]=$html;
 			// }
 
@@ -1056,7 +1058,7 @@ elseif($action == 'updattask'){
 
 	// 	$tobetransferedto = 0;
 	// 	$updatetask = false;
-	// 	checkIfNeedToBeTransfered($task, $updatetask, $tobetransferedto, $option_taskurgent = 0);
+	// 	check_if_need_to_be_transfered($task, $updatetask, $tobetransferedto, $option_taskurgent = 0);
 
 	// 	if ($tobetransferedto == 1) {
 	// 		$result['error'] = 1;
@@ -1115,7 +1117,7 @@ elseif($action == 'updattask'){
 	}
 
 
-    $titletask = kanbanGetTitleOfCurrentTask($task);
+    $titletask = kanban_get_title_of_current_task($task);
     
 	$result['titletask'] = $titletask;
 	// $html = "true";
@@ -1158,7 +1160,7 @@ elseif($action == 'checklisttask'){
 		$html .= '</div>';
 		$html .= $checklist->selectCheck($id_tache);
 	}elseif($id_modal){
-		$html .= selectCheckModal($id_modal);
+		$html .= select_check_modal($id_modal);
 	}
 
 	$html .= '<div class="kanban_btn_set">';
